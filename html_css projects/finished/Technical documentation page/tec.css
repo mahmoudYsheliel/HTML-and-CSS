@@ -1,0 +1,36 @@
+
+#sidebar{
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 290px;
+    color: black;
+    text-align: center;
+    overflow: auto;
+    height: 100%;
+
+}
+#documentation{
+    position: relative;
+    margin-left: 300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul{
+   
+    justify-content: left;
+    overflow-y: auto;
+ 
+}
+
+li{
+    list-style: none;
+    margin: 20px ;
+    padding: 5px;
+    border: solid 2px blue;
+    text-align: center;
+}

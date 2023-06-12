@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0
+
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+}
+.parent:first-of-type {
+  background: #ffffff url("aang1.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(2) {
+  background: #ffffff url("aang2.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(3) {
+  background: #ffffff url("aang3.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(4) {
+  background: #ffffff url("aang4.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:last-of-type {
+  background: #ffffff url("aang5.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.parent {
+  width: 80%;
+  height: 100%;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-family: tahoma;
+  text-align: center;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden
+}
+.parent p {
+  padding: 25px
+}

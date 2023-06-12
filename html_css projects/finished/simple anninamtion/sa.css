@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes ex1 {
+    from { 
+        width: 0px;
+        height: 0px;
+        font-size: 0%;
+        left: 50px;
+    }
+    to {
+        width: 100px;
+        height: 100px;
+        font-size: 100%;
+        left: 0px;
+    }
+}
+
+.bounceIn{
+    animation-name: ex1 ;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes ex2 {
+    from { 
+        right: 500px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+.bounceInLeft{
+    animation-name: ex2 ;
+    animation-duration: 2s;
+}
+
+@keyframes ex3 {
+    from { 
+        left: 500px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.bounceInRight{
+    animation-name: ex3 ;
+    animation-duration: 2s;
+}
+
+
+@keyframes ex4 {
+    from { 
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.fadeIn{
+    animation-name: ex4 ;
+    animation-duration: 2s;
+}
+
+
+@keyframes ex5 {
+    from { 
+        opacity: 0%;
+        top: 20px;
+    }
+    to {
+        opacity: 100%;
+        top: 0px;
+    }
+}
+
+.fadeInDown{
+    animation-name: ex5 ;
+    animation-duration: 2s;
+}
+@keyframes ex6 {
+    from { 
+        opacity: 0%;
+        top: -20px;
+    }
+    to {
+        opacity: 100%;
+        top: 0px;
+    }
+}
+
+.fadeInUp{
+    animation-name: ex6 ;
+    animation-duration: 2s;
+}
+
+@keyframes ex7 {
+    from { 
+        top: 50px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.moveUp{
+    animation-name: ex7 ;
+    animation-duration: 2s;
+}

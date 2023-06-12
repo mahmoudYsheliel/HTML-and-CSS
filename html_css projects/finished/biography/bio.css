@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+    font-style: normal;
+    color: blue;
+}
+
+.c1{
+    text-align: center;
+    font-size: 40px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+.c2 {
+    border-color: aliceblue;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    width: 500px;
+    overflow: auto;
+}
+
+
+
+.par{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    float: left;
+    width: 200px;
+}
+img{
+    float: right ;
+}
+
+
+.c3{
+    margin-left: 5%;
+    margin-right: 5%;
+}

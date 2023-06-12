@@ -1,0 +1,96 @@
+
+
+
+*{
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+}
+
+nav{
+    overflow: auto;
+}
+
+.items{
+    text-align: center;
+    word-spacing: 20px;
+    width: 70%;
+    float: left;
+}
+nav img{
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    
+}
+.other{
+    float: right;
+}
+
+button{
+    margin: 0px;
+    width: 100px;
+    border: solid 1px white;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+button:hover{
+    background-color: white;
+    color:  red;
+}
+a:hover{
+    color: red;
+}
+.short-info{
+    color: red;
+    margin: 15px 0px;
+    
+}
+
+.hero-image{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.hero-image img{
+    width: 100%;
+}
+
+.row{position: absolute;
+    display: block;
+    
+}
+
+.info{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+}
+h2{
+    font-size: 60px;
+}
+.info img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.users p{
+    display: inline;
+}
+.info button{
+   display: block;
+}
